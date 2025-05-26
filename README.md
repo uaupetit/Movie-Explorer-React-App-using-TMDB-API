@@ -20,7 +20,7 @@ Created as part of the **Fleet Study Case** for a fullstack developer internship
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/movie-explorer.git
+git clone git@github.com:your-username/Fleet_StudyCase.git
 cd movie-explorer
 ```
 
@@ -47,12 +47,6 @@ Create a file named `.env` at the root of the project, and add your API key like
 
 ```env
 REACT_APP_API_KEY=your_api_key_here
-```
-
-Or copy the example file:
-
-```bash
-cp .env.example .env
 ```
 
 ### 5. Start the development server
