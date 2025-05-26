@@ -20,8 +20,8 @@ Created as part of the **Fleet Study Case** for a fullstack developer internship
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:your-username/Fleet_StudyCase.git
-cd movie-explorer
+git clone git@github.com:uaupetit/Fleet_StudyCase.git
+cd Fleet_StudyCase
 ```
 
 ### 2. Install dependencies
