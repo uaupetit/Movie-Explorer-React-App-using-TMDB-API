@@ -1,95 +1,70 @@
-# 🎬 Movie Explorer – Fleet Study Case
+# Getting Started with Create React App
 
-A simple React application to browse and search movies using [The Movie Database (TMDB)](https://www.themoviedb.org/)'s public API.  
-Created as part of the **Fleet Study Case** for a fullstack developer internship.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-## 🚀 Features
+In the project directory, you can run:
 
-- View **popular movies** from TMDB  
-- **Search bar** with real-time suggestions powered by the TMDB API  
-- Click on a movie to see a **detailed popup** (poster, title, release date, rating, overview)  
-- **Responsive** grid layout with hover effects  
-- “Load More” button to paginate through additional results  
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🛠️ Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 1. Clone the repository
+### `npm test`
 
-```bash
-git clone https://github.com/your-username/movie-explorer.git
-cd movie-explorer
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 2. Install dependencies
+### `npm run build`
 
-```bash
-npm install
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 3. Get a TMDB API key
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-You’ll need an API key from [The Movie Database](https://www.themoviedb.org/) to connect to the API.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**Steps:**
+### `npm run eject`
 
-1. Go to [https://www.themoviedb.org/](https://www.themoviedb.org/) and create an account  
-2. Visit your [API settings](https://www.themoviedb.org/settings/api)  
-3. Apply for a Developer API key (v3 auth)  
-4. Once approved, copy your API key
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### 4. Configure your environment
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Create a file named `.env` at the root of the project, and add your API key like this:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```env
-REACT_APP_API_KEY=your_api_key_here
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Or copy the example file:
+## Learn More
 
-```bash
-cp .env.example .env
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 5. Start the development server
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-```bash
-npm start
-```
+### Code Splitting
 
-Then open your browser at: [http://localhost:3000](http://localhost:3000)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
----
+### Analyzing the Bundle Size
 
-## 📁 Project Structure
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```
-movie-explorer/
-├── public/
-├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── .env.example
-└── README.md
-```
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## 📦 Dependencies
+### Advanced Configuration
 
-- React
-- Axios
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
----
+### Deployment
 
-## 🧪 Notes
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-This project uses the public TMDB API. For more information, visit the [official TMDB documentation](https://developers.themoviedb.org/3).
+### `npm run build` fails to minify
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
